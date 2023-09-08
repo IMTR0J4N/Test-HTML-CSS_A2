@@ -29,17 +29,7 @@ ul {
     font-weight: normal;
 }
 
-ol,
-ul {
-    list-style: none;
-}
-
 img, picture img, picture source, iframe {
     max-width: 100%;
     height: auto;
-}
-
-a {
-    text-decoration: none;
-    color: black;
 }

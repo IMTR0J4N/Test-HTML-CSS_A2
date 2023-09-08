@@ -1,14 +1,140 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <title></title>
+  <title>Travaux Dirigés - HTML</title>
 </head>
-<body>
-  
+
+<body style="width: 100vw; height: 100vh;">
+  <article>
+    <h1>Tokyo, ville la plus chère du monde, Asuncion la moins chère, Paris 17e</h1>
+    <section>
+      <h2>PARIS ( <span class="italique-brown">AFP</span> )</h2>
+      <p style="text-align: left;">Tokyo est la ville la plus chère du monde, suivie de Londres tandis que Paris arrive à la 17e place et Asuncion arrive à la dernière place du classement, selon une enquête réalisée par le cabinet de conseil <span class="italique-brown">Mercer HRC</span>.
+        La capitale japonaise occupait déjà la première place du classement l'année dernière, en revanche la capitale anglaise est remontée de la cinquième à la deuxième place.
+        C'est la russe Moscou qui monte sur la troisième marche du podium, suivie d'une autre ville japonaise Osaka et de Hong-Kong en cinquième position.
+        
+        New York, la ville la plus onéreuse d'<span class="courier-green">Amérique du Nord</span>, s'affiche à la 12e place du classement. Et c'est au sud du continent américain, à Asuncion au Paraguay que la vie est la moins chère du monde, selon cette étude.
+        </p>
+    </section>
+    <hr>
+   <section>
+    <h2>Les importantes modifications</h2>
+    <p style="text-align: justify;">"Les importantes modifications dans le classement sur le coût de la vie sont dues aux fluctuations monétaires, notamment à celle du dollar et de l'euro", relève l'enquête. S'agissant de Paris, l'étude note que "le logement reste très difficile à trouver surtout lorsqu'il s'agit d'habitations meublées".
+
+      Quatre des cinq villes les moins chères d'<span class="courier-green">Europe</span> font partie des nouveaux entrants de l'Union européenne: Ljubljana (Slovénie), Vilnius (Lituanie), Limassol (Chypre) et Bucarest (Roumanie).
+      </p>
+   </section>
+   <hr>
+   <section>
+    <h2>Les 50 villes les plus chères</h2>
+    <p style="text-align: right;">Parmi les cinquante villes les plus chères, près de la moitié (24) sont européennes. Dans cette zone géographique, Londres, la plus chère en raison "du logement et du transport", est suivie de Copenhague (Danemark) et de Milan (Italie).
+
+      En <span class="courier-green">Amérique</span> Latine, c'est la capitale du Pérou, Lima, qui se situe à la première place sur le continent.
+      
+      L'étude, qui porte sur 144 villes, se fonde sur des critères relatifs au logement, à la nourriture, à l'habillement et les appareils ménagers ou encore aux transports et aux loisirs.
+      </p>
+   </section>
+   <hr>
+  </article>
+
+
+  <p>un paragraphe contenant un <a href="./utils/1/fic1.html">lien externe</a></p>
+  <ul>
+    <li>Liste numérotée :
+      <ol>
+        <li>
+          Liste non numérotée :
+          <ul>
+            <li>Dernier niveau de l'arborescence</li>
+          </ul>
+        </li>
+      </ol>
+    </li>
+  </ul>
+
+  <div class="flex-center">
+    <table border="1" style="width: 90%;">
+      <thead>
+        <tr>
+          <th>Titre 1</th>
+          <th>Titre 2</th>
+          <th>Titre 3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Cellule simple</td>
+          <td>Cellule simple</td>
+          <td>Cellule simple</td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: right;">Deux colonnes assemblées</td>
+          <td>Cellule simple</td>
+        </tr>
+        <tr>
+          <td>Cellule simple</td>
+          <td>Cellule simple</td>
+          <td rowspan="2" style="text-align: start; vertical-align: text-top;">Deux lignes assemblées</td>
+        </tr>
+        <tr>
+          <td>Cellule simple</td>
+          <td>Cellule simple</td>
+        </tr>
+        <tr>
+          <td>Cellule simple</td>
+          <td colspan="2" rowspan="2" style="text-align: center; vertical-align: text-top;">Deux lignes et deux colonnes</td>
+        </tr>
+        <tr>
+          <td>Cellule simple</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr>
+    <table border="1" style="width: 25%;">
+      <thead>
+        <tr>
+          <th>Colonne1</th>
+          <th>Colonne2</th>
+          <th>Colonne3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="2">double</td>
+          <td>simple</td>
+        </tr>
+        <tr>
+          <td>simple</td>
+          <td rowspan="3">triple</td>
+          <td>simple</td>
+        </tr>
+        <tr>
+          <td>simple</td>
+          <td rowspan="3">triple</td>
+        </tr>
+        <tr>
+          <td>simple</td>
+        </tr>
+        <tr>
+          <td>simple</td>
+          <td>simple</td>
+        </tr>
+        <tr>
+          <td colspan="2" rowspan="2">double / double</td>
+          <td>simple</td>
+        </tr>
+        <tr>
+          <td>simple</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
   <script src="./src/js/app.js" type="module"></script>
 </body>
+
 </html>

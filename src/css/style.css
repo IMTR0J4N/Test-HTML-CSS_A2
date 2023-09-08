@@ -1,0 +1,14 @@
+.courier-green {
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+  }
+  .italique-brown {
+    font-style: italic;
+    color: brown;
+  }
+  .flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
