@@ -27,3 +27,73 @@ form span {
   font-size: 25px;
   margin: 15px;
 }
+
+#bloc {
+  height: fit-content;
+  width: fit-content;
+  background-color: yellow;
+}
+
+#bloc > h1, h2 {
+  color: red;
+  font-weight: bold;
+}
+
+#bloc > b {
+  color: green;
+}
+
+#bloc > p {
+  color: blue;
+}
+
+.p2 {
+  color: orange !important;
+}
+
+#bloc > p > input[type='text'] {
+  background-color: green;
+}
+
+p > a {
+  color: gray;
+  text-decoration: none;
+}
+
+dt:not(.la_classe) {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+dd:not(#mon_id) {
+  background-color: rgba(0, 255, 0, 0.2);
+}
+
+h1 > em {
+  background-color: rgba(0, 255, 0, 0.2);
+}
+
+p > q {
+  background-color: rgba(255, 230, 0, 0.3);
+}
+
+.ma_classe ~ q {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+table {
+  width: 30%;
+}
+
+table > caption {
+  text-align: start;
+  color: green;
+}
+
+table tr:nth-child(1) {
+  background-color: black;
+  color: white;
+}
+
+table tr {
+  background-color: rgba(0, 255, 0, 0.2)
+}
