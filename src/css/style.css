@@ -1,14 +1,29 @@
 .courier-green {
-    font-family: 'Courier New', Courier, monospace;
-    color: green;
-  }
-  .italique-brown {
-    font-style: italic;
-    color: brown;
-  }
-  .flex-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
+  font-family: 'Courier New', Courier, monospace;
+  color: green;
+}
+
+.italique-brown {
+  font-style: italic;
+  color: brown;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 25%;
+}
+
+form span {
+  font-size: 25px;
+  margin: 15px;
+}
