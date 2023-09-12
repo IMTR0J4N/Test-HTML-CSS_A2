@@ -111,17 +111,18 @@ table td {
   list-style: url('/assets/img/puce.png');
 }
 
-.globe-ul {
-  list-style: none;
+#globe-ul {
+  margin-left: 90px;
+  list-style: url('/assets/img/globe.jpeg');
 }
 
-.globe-ul > li {
-  display: flex;
-  align-items: center;
+#globe-ul li {
+  position: relative;
 }
 
-.globe-ul > li > span {
-  font-size: 25px;
+#globe-ul li span{
+  position: absolute;
+  bottom: 45%
 }
 
 #custom-table {
@@ -144,4 +145,141 @@ table td {
 
 #custom-table tr:nth-child(1) {
   background-color: #eff6ff;
+  color: black;
+}
+
+.green-box  {
+  position: relative;
+  width: 25%;
+  height: fit-content;
+  background-color: greenyellow;
+}
+
+.text-green-box {
+  padding: 10px;
+}
+
+.float-box {
+  background-color: yellow;
+  width: 20%;
+  padding: 5px;
+  height: fit-content;
+  float: right;
+}
+
+.blue-box {
+  padding: 10px;
+  height: 30%;
+  width: 15%;
+  background-color: blue;
+}
+
+.blue-box .text {
+  height: 100%;
+  width: 65%;
+    background-color: white;
+}
+
+.blue-box > aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c8e2fe;
+  float: right;
+}
+
+.blue-box > aside > ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}
+
+.green-box2  {
+  position: relative;
+  width: 25%;
+  padding-bottom: 20px;
+  background-color: greenyellow;
+}
+
+.text-green-box2 {
+  padding: 10px;
+}
+
+.float-box2 {
+  background-color: yellow;
+  width: 20%;
+  padding: 5px;
+  height: fit-content;
+  float: right;
+}
+
+.clear-fix {
+  clear: right;
+}
+
+.green-box3  {
+  position: relative;
+  width: 25%;
+  height: fit-content;
+  background-color: greenyellow;
+}
+
+.text-green-box3 {
+  padding: 10px;
+}
+
+.float-box3 {
+  position: absolute;
+  background-color: yellow;
+  width: 20%;
+  padding: 5px;
+  height: fit-content;
+  float: right;
+}
+
+.blue-box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  height: 30%;
+  width: 15%;
+  background-color: blue;
+}
+
+.blue-box2 .text2 {
+  height: 91%;
+  width: 95%;
+    background-color: white;
+}
+
+.blue-box2 > nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c8e2fe;
+  height: 25px;
+  width: 100%;
+}
+
+.blue-box2 > nav > ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+#link::after {
+  content: url('/assets/img/puce.png')
+}
+
+#zoom-img {
+  height: 100px;
+  width: auto;
+}
+
+#zoom-img:hover {
+  height: 150px;
 }
