@@ -81,7 +81,12 @@ p > q {
 }
 
 table {
+  border-collapse: collapse;
   width: 30%;
+}
+
+tbody {
+  border: red 3px solid;
 }
 
 table > caption {
@@ -96,4 +101,47 @@ table tr:nth-child(1) {
 
 table tr {
   background-color: rgba(0, 255, 0, 0.2)
+}
+
+table td {
+  border: gray 2px solid
+}
+
+.ul-custom {
+  list-style: url('/assets/img/puce.png');
+}
+
+.globe-ul {
+  list-style: none;
+}
+
+.globe-ul > li {
+  display: flex;
+  align-items: center;
+}
+
+.globe-ul > li > span {
+  font-size: 25px;
+}
+
+#custom-table {
+  width: 30%;
+}
+
+#custom-table > tbody {
+  border-color: steelblue;
+}
+
+#custom-table th {
+  border: 1px solid steelblue;
+  background-color: #c8e2fe;
+  
+}
+
+#custom-table td {
+  background-color: white;
+}
+
+#custom-table tr:nth-child(1) {
+  background-color: #eff6ff;
 }
