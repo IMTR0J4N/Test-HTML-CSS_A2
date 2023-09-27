@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .courier-green {
   font-family: 'Courier New', Courier, monospace;
   color: green;
@@ -282,4 +286,29 @@ table td {
 
 #zoom-img:hover {
   height: 150px;
+}
+
+.rotate-images {
+  display: flex;
+  gap: 20px;
+}
+
+.rotate-img-container {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  height: 370px;
+  width: 350px;
+  padding: 10px;
+}
+
+#rotate-img1 {
+  z-index: 1000;
+  box-shadow: 20px 0px 0px -16px rgba(0,0,0,0.5);
+  transform: rotate(0.03turn);
+}
+
+#rotate-img2 {
+  box-shadow: -20px 0px 0px -16px rgba(0,0,0,0.5);
+  transform: rotate(-0.03turn);
 }
